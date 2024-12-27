@@ -1,4 +1,4 @@
-package com.example.study_project_API.domain;
+package com.example.study_project_API.Model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.example.study_project_API.domain;
+package com.example.study_project_API.Model;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @Getter
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public abstract class User {
+public abstract class BaseEntity {
 
-    @CreatedDate
+	@CreatedDate
     private LocalDateTime createdDate;
 
     @LastModifiedDate
