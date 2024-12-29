@@ -1,4 +1,4 @@
-package com.example.study_project_API.Model;
+package com.example.study_project_API.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
+//Model(Entity) : DB 테이블과 매핑, JPA 엔티티로서의 역할, 데이터베이스 스키마를 표현
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)

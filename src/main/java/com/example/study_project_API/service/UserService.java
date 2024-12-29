@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.study_project_API.Model.User;
+import com.example.study_project_API.model.User;
 import com.example.study_project_API.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;

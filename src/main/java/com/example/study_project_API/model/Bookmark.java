@@ -1,4 +1,4 @@
-package com.example.study_project_API.Model;
+package com.example.study_project_API.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
