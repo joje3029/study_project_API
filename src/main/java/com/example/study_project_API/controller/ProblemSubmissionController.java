@@ -18,14 +18,5 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ProblemSubmissionController {
 private final ProblemService problemService;
-    
-    @GetMapping
-    public ResponseEntity<List<Problem>> getAllProblems() {
-        return ResponseEntity.ok(problemService.getAllProblems());
-    }
-    
-    @GetMapping("/{id}")
-    public ResponseEntity<Problem> getProblemById(@PathVariable Long id) {
-        return ResponseEntity.ok(problemService.getProblemById(id));
-    }
+    //점수 등록, 등록시 등록 일자 함께 등록, sql로 일자 함꼐 등록, 
 }
